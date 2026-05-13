@@ -1,0 +1,21 @@
+.container {
+  min-width: 320px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family:
+    Open Sans,
+    Inter,
+    system-ui,
+    Avenir,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  &__content {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}
